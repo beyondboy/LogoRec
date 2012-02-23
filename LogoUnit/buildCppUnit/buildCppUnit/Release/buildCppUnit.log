@@ -1,0 +1,54 @@
+﻿Build started 2012/2/16 23:36:03.
+     1>Project "D:\LOGO\Logo1223\LogoRec\LogoUnit\buildCppUnit\buildCppUnit\buildCppUnit.vcxproj" on node 2 (build target(s)).
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(299,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+     1>InitializeBuildStatus:
+         Creating "Release\buildCppUnit.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D BUILDCPPUNIT_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\src\CppUnitException.cpp ..\..\src\TestCase.cpp ..\..\src\TestDecorator.cpp ..\..\src\TestFailure.cpp ..\..\src\TestResult.cpp ..\..\src\TestRunner.cpp ..\..\src\TestSuite.cpp ..\..\src\TextTestResult.cpp
+         CppUnitException.cpp
+         TestCase.cpp
+     1>D:\LOGO\Logo1223\LogoRec\LogoUnit\include\CppUnit/estring.h(38): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>D:\LOGO\Logo1223\LogoRec\LogoUnit\include\CppUnit/estring.h(47): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>D:\LOGO\Logo1223\LogoRec\LogoUnit\include\CppUnit/estring.h(56): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>D:\LOGO\Logo1223\LogoRec\LogoUnit\include\CppUnit/estring.h(65): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+         TestDecorator.cpp
+         TestFailure.cpp
+         TestResult.cpp
+         TestRunner.cpp
+         TestSuite.cpp
+         TextTestResult.cpp
+     1>D:\LOGO\Logo1223\LogoRec\LogoUnit\include\CppUnit/estring.h(38): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>D:\LOGO\Logo1223\LogoRec\LogoUnit\include\CppUnit/estring.h(47): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>D:\LOGO\Logo1223\LogoRec\LogoUnit\include\CppUnit/estring.h(56): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>D:\LOGO\Logo1223\LogoRec\LogoUnit\include\CppUnit/estring.h(65): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+       Link:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\..\lib\buildCppUnit.dll" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\buildCppUnit.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\LOGO\Logo1223\LogoRec\LogoUnit\lib\buildCppUnit.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\..\lib\buildCppUnit.lib" /MACHINE:X86 /DLL Release\CppUnitException.obj
+         Release\TestCase.obj
+         Release\TestDecorator.obj
+         Release\TestFailure.obj
+         Release\TestResult.obj
+         Release\TestRunner.obj
+         Release\TestSuite.obj
+         Release\TextTestResult.obj
+            Creating library ..\..\lib\buildCppUnit.lib and object ..\..\lib\buildCppUnit.exp
+         Generating code
+         Finished generating code
+         buildCppUnit.vcxproj -> D:\LOGO\Logo1223\LogoRec\LogoUnit\buildCppUnit\buildCppUnit\..\..\lib\buildCppUnit.dll
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"..\..\lib\buildCppUnit.dll;#2" /manifest Release\buildCppUnit.dll.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Release\buildCppUnit.unsuccessfulbuild".
+         Touching "Release\buildCppUnit.lastbuildstate".
+     1>Done Building Project "D:\LOGO\Logo1223\LogoRec\LogoUnit\buildCppUnit\buildCppUnit\buildCppUnit.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:13.99
